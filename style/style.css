@@ -46,7 +46,7 @@ li.active a {
     background-color: transparent !important;
 }
 
-a:hover {
+nav ul li a:hover {
     text-decoration: none !important;
     color: #FFD271 !important;
 }
@@ -100,30 +100,32 @@ span {
     overflow: hidden;
 }
 
-section h1 {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 80px;
-    font-weight: bold;
-}
-
-section button {
+section a {
     background-color: black;
     color: #FFD271;
     border: 2px solid #FFD271;
     border-radius: 5px;
     padding: 15px 35px;
-    margin-top: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
-section button:hover {
+section a:hover {
     background-color: #FFD271;
     color: black;
     box-shadow: 0 0 50px #FFD271;
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.13));
     transition: 0.1s;
+    text-decoration: none;
+}
+
+
+section h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .about-class {
@@ -286,7 +288,7 @@ footer p {
         font-size: 40px;
     }
 
-    section button {
+    section a {
         padding: 10px 20px;
         margin-top: 10px;
         font-size: 15px;
