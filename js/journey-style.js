@@ -4,7 +4,7 @@ new fullpage('#fullpage', {
     continuousVertical: true,
 })
 
-if (screen && screen.width > 768) {
+if (screen && screen.width > 991) {
     document.write('<script type="text/javascript" src="fullpage.js"><\/script>');
 }
 

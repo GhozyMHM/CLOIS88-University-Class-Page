@@ -96,7 +96,6 @@ nav button.navbar-toggler:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .section2 {
@@ -111,7 +110,6 @@ nav button.navbar-toggler:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .section2 .info {
@@ -230,13 +228,75 @@ section img {
 }
 
 @media (max-width: 991px) {
-    .web-header h2 {
-        font-size: 60px;
+    .web-header {
+        padding: 0 150px;
     }
 
-    .web-header h1 {
-        font-size: 80px;
+    .web-header h1,
+    .web-header p {
+        background-color: #21243d;
     }
+
+    .section1 .container1,
+    .section2 .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 .info {
+        order: 1;
+    }
+
+    .container2 .pict {
+        order: 2;
+    }
+
+    section .info {
+        max-width: 500px;
+    }
+
+    section h3 {
+        padding: 3px 50px 3px 50px;
+        font-size: 55px;
+        font-weight: bold;
+        margin: 15px auto 0 auto;
+        text-align: center;
+    }
+
+    section p {
+        font-size: 20px;
+        margin: 25px 0 40px;
+        text-align: center;
+    }
+
+    section a {
+        padding: 15px 50px;
+        font-size: 17px;
+        text-align: center;
+        margin-left: 150px;
+    }
+
+    .section1 .info {
+        margin-right: 0;
+    }
+
+    .section2 .info {
+        margin-left: 0;
+    }
+
+    section img {
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    .quote {
+        padding: 0 150px;
+    }
+
+    .quote p {
+        background-color: transparent;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -248,7 +308,90 @@ section img {
         font-size: 30px;
     }
 
+    .web-header {
+        padding: 0 75px;
+        background-size: cover;
+        background-position: 35%;
+    }
+
     .web-header h1 {
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+    .web-header p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #fp-nav ul li a.active span {
+        width: 13px !important;
+        height: 13px !important;
+        margin: -6px 0 0 -10px !important;
+    }
+
+    #fp-nav ul li a span {
+        width: 13px !important;
+        height: 13px !important;
+        margin: -6px 0 0 -10px !important;
+    }
+
+    #fp-nav ul li a {
+        margin-top: 10px;
+    }
+
+    .section1 {
+        background-size: cover;
+        background-position: 65%;
+    }
+
+    .section2 {
+        background-size: cover;
+        background-position: 35%;
+    }
+
+    section .info {
+        max-width: 250px;
+    }
+
+    section h3 {
+        padding: 3px 50px 3px 50px;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section p {
+        font-size: 15px;
+        margin: 25px 0 27px;
+        text-align: center;
+    }
+
+    section a {
+        padding: 10px 15px;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 65px;
+    }
+
+    section img {
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    .quote {
+        padding: 0 85px;
+        background-size: cover;
+        background-position: 65%;
+    }
+
+    .quote h1 {
+        font-size: 35px;
+    }
+
+    .quote p {
+        background-color: #21243d;
+        font-size: 20px;
+        overflow: hidden;
     }
 }
