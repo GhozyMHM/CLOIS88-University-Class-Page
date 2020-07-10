@@ -213,18 +213,18 @@ section img {
     background: #FFD271 !important;
     width: 20px !important;
     height: 20px !important;
-    margin: -6px 0 0 -25px !important;
+    margin: -10px 0 0 -25px !important;
 }
 
 #fp-nav ul li a span {
     background-color: white !important;
-    width: 20px !important;
-    height: 20px !important;
-    margin: -6px 0 0 -25px !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: -6px 0 0 -20px !important;
 }
 
 #fp-nav ul li a {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 @media (max-width: 991px) {
@@ -324,15 +324,15 @@ section img {
     }
 
     #fp-nav ul li a.active span {
-        width: 13px !important;
-        height: 13px !important;
+        width: 15px !important;
+        height: 15px !important;
         margin: -6px 0 0 -10px !important;
     }
 
     #fp-nav ul li a span {
-        width: 13px !important;
-        height: 13px !important;
-        margin: -6px 0 0 -10px !important;
+        width: 9px !important;
+        height: 9px !important;
+        margin: -6px 0 0 -7px !important;
     }
 
     #fp-nav ul li a {
