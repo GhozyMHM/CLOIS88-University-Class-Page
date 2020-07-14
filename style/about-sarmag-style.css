@@ -58,7 +58,7 @@ nav button.navbar-toggler:active {
 }
 
 .web-header {
-    background-image: url(img/about-sarmag-banner.png);
+    background-image: url(img/banner-about-sarmag.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -89,6 +89,159 @@ span {
     overflow: hidden;
     padding: 50px;
 }
+
+section.container-section {
+    background-color: #21243D;
+    height: auto;
+    padding: 80px 30px;
+    overflow: hidden;
+}
+
+section h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+}
+
+section span.invincible {
+    color: #FFD271;
+    padding: 0;
+    background-color: transparent;
+}
+
+section h4 {
+    color: #FFD271;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+section p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.container-section img {
+    width: 400px;
+}
+
+div.content {
+    padding: 0 20px;
+}
+
+.shape {
+    width: 100%;
+    height: 17px;
+    background-color: #FFD271;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+#contShape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-part {
+    margin-top: 150px;
+}
+
+.member-row {
+    display: flex;
+    justify-content: center;
+}
+
+.member-row h3 {
+    color: #FFD271;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.team-container {
+    padding: 0 50px 30px;
+}
+
+.card-container {
+    background-color: white;
+    border: 3px solid #FFD271;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.card-container img {
+    width: 170px;
+    height: 170px;
+}
+
+.card-container h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.socmed a i {
+    color: black;
+    font-size: 20px;
+}
+
+.team-row {
+    margin-top: 30px;
+}
+
+ol.carousel-indicators {
+    bottom: -80px;
+}
+
+ol.carousel-indicators li.active {
+    background: #FFD271;
+    width: 130px;
+    border-radius: 50px;
+}
+
+ol.carousel-indicators li {
+    background: #ffe09e6c;
+    width: 130px;
+    border-radius: 50px;
+}
+
+i.fa-angle-left {
+    color: red;
+    background-color: transparent;
+}
+
+/* span.carousel-control-prev-icon {
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+} */
+
 
 .footer-logo {
     padding-top: 25px;

@@ -7,3 +7,7 @@ window.onscroll = function () {
         navbar.style.background = "transparent";
     }
 }
+
+$(document).ready(function () {
+    $("#carousel-member").carousel('pause');
+});
