@@ -83,6 +83,10 @@ span {
     padding: 5px 10px;
 }
 
+div.mini-carousel {
+    display: none;
+}
+
 section.container-section {
     background-color: #21243D;
     height: auto;
@@ -405,11 +409,159 @@ footer p {
         font-size: 30px;
     }
 
-    header h2 {
-        font-size: 30px;
+    .web-header {
+        height: 70vh;
     }
 
     header h1 {
+        font-size: 35px;
+    }
+
+    span {
+        padding: 2px 7px;
+    }
+
+    section.container-section {
+        padding: 50px 30px 80px;
+    }
+
+    section h3 {
+        font-size: 30px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    section h4 {
+        color: #FFD271;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    section p {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .container-section img {
+        width: 320px;
+    }
+
+    div.content {
+        padding: 0;
+    }
+
+    #shape1 {
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+
+    #shape2 {
+        margin-right: 150px;
+    }
+
+    #content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    #contShape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-part {
+        margin-top: 100px;
+    }
+
+    div.main-carousel {
+        display: none;
+    }
+
+    div.mini-carousel {
+        display: block;
+    }
+
+    .member-row h3 {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .team-container {
+        padding: 0 15px 30px;
+    }
+
+    .card-container {
+        padding: 20px 10px;
+        height: 250px;
+    }
+
+    .card-container img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .card-container h5 {
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .card-container p {
+        font-size: 11px;
+        color: black;
+    }
+
+    .team-row {
+        margin-top: 30px;
+    }
+
+    ol.carousel-indicators {
+        bottom: -80px;
+    }
+
+    ol.carousel-indicators li.active {
+        background: #FFD271;
+        width: 130px;
+        border-radius: 50px;
+    }
+
+    ol.carousel-indicators li {
+        background: #ffe09e6c;
+        width: 130px;
+        border-radius: 50px;
+    }
+
+    i.fa-angle-left,
+    i.fa-angle-right {
+        color: #21243D;
+        font-size: 50px;
+        width: 30px;
+    }
+
+    a.carousel-control-next span,
+    a.carousel-control-prev span {
+        background: #FFD271;
+        border-radius: 100px;
+    }
+
+    a.carousel-control-next {
+        right: -120px;
+    }
+
+    a.carousel-control-prev {
+        left: -120px;
+    }
+
+    ol.carousel-indicators li i {
+        position: absolute;
+        color: red;
         font-size: 50px;
     }
 
