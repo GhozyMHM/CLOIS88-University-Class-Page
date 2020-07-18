@@ -90,11 +90,19 @@ div.mini-carousel {
 }
 
 section.container-section {
-    background-color: #21243D;
+    background-image: url(img/Full-BG.png);
     height: auto;
-    padding: 80px 30px;
     overflow: hidden;
 }
+
+.overlay-section {
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 80px 30px;
+}
+
 
 section h3 {
     color: white;
@@ -410,7 +418,7 @@ footer p {
         padding: 2px 7px;
     }
 
-    section.container-section {
+    .overlay-section {
         padding: 50px 30px 80px;
     }
 
