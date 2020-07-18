@@ -24,6 +24,7 @@ html {
     font-weight: bold;
     font-family: 'Bitter', serif;
     font-size: 35px;
+    cursor: pointer;
 }
 
 nav ul li a {
