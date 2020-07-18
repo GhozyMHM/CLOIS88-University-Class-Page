@@ -93,6 +93,91 @@ span {
     padding: 5px 10px;
 }
 
+section.container-section {
+    background-image: url(img/Full-BG.png);
+    height: auto;
+    overflow: hidden;
+}
+
+.overlay-section {
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 80px 100px;
+}
+
+section.container-section h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section.container-section .text p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+section.container-section h1 {
+    color: #FFD271;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 50px;
+}
+
+.team-container {
+    padding: 0 0 30px;
+}
+
+.card-container {
+    background-color: white;
+    border: 3px solid #FFD271;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.card-container img {
+    width: 170px;
+    height: 170px;
+}
+
+.card-container h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.socmed a i {
+    color: black;
+    font-size: 20px;
+}
+
+.team-row {
+    margin-top: 30px;
+}
+
+.mini-card {
+    display: none;
+}
+
 .web-footer {
     background-color: #F67280;
     height: auto;
@@ -152,7 +237,33 @@ footer p {
 
 @media (max-width: 991px) {
     header h1 {
-        font-size: 80px;
+        font-size: 60px;
+    }
+
+    span {
+        padding: 2px 7px;
+    }
+
+    .overlay-section {
+        padding: 35px 60px;
+    }
+
+    #title {
+        margin: 50px 0;
+    }
+
+    .card-container {
+        padding: 30px 20px;
+    }
+
+    .card-container img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .card-container h5 {
+        font-size: 17px;
+        text-align: center;
     }
 
     .web-footer {
@@ -200,6 +311,59 @@ footer p {
 
     span {
         padding: 2px 7px;
+    }
+
+    .text2 {
+        margin-top: 20px;
+    }
+
+    .overlay-section {
+        padding: 35px 35px;
+    }
+
+    #title {
+        margin: 50px 0 25px;
+    }
+
+    section.container-section h3 {
+        font-size: 23px;
+    }
+
+    section.container-section .text p {
+        font-size: 15px;
+    }
+
+    .card-container {
+        padding: 20px 10px;
+        height: 250px;
+    }
+
+    .card-container img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .card-container h5 {
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .card-container p {
+        font-size: 11px;
+        color: black;
+    }
+
+    .team-row {
+        margin-top: 30px;
+    }
+
+    .main-card {
+        display: none;
+    }
+
+    .mini-card {
+        display: block;
     }
 
     footer h1 {

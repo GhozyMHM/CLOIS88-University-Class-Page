@@ -103,7 +103,6 @@ section.container-section {
     padding: 80px 30px;
 }
 
-
 section h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -180,7 +179,7 @@ div.content {
 }
 
 .team-container {
-    padding: 0 80px 30px;
+    padding: 0 70px 30px;
 }
 
 .card-container {
@@ -346,7 +345,7 @@ footer p {
     }
 
     .team-container {
-        padding: 0 10px 30px;
+        padding: 0 30px 30px;
     }
 
     .card-container {
@@ -358,6 +357,7 @@ footer p {
         align-items: center;
         justify-content: center;
         padding: 30px 20px;
+        height: 300px;
     }
 
     .card-container img {
@@ -369,6 +369,7 @@ footer p {
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
         margin-top: 20px;
+        text-align: center;
     }
 
     .web-footer {
@@ -429,16 +430,12 @@ footer p {
     }
 
     section h4 {
-        color: #FFD271;
-        font-family: 'Roboto', sans-serif;
         font-size: 25px;
         text-align: center;
         margin-top: 20px;
     }
 
     section p {
-        color: white;
-        font-family: 'Roboto', sans-serif;
         font-size: 17px;
         text-align: center;
     }
