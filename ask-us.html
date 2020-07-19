@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>Clois88 | Homepage</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Clois88 | About Sarmag</title>
+    <link rel="stylesheet" href="style/ask-us.css">
     <link rel="stylesheet" href="style/Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/Bootstrap/js/bootstrap.bundle.min.js">
     <link rel="shortcut icon" href="style/img/icon.jpeg" type="image/x-icon">
@@ -22,8 +22,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="journey.html">Our Journey</a>
@@ -31,14 +31,14 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About Us
+                        About Us <span class="sr-only">(current)</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="about-sarmag.html">About Sarmag SI 2018</a>
                         <a class="dropdown-item" href="about-team.html">About Developer Team</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="ask-us.html">Ask Us Anything</a>
                 </li>
             </ul>
@@ -46,39 +46,50 @@
     </nav>
 
     <header class="web-header">
-        <div class="header-content">
-            <h2>WELCOME TO</h2>
-            <h1>SARMAG <span>SI</span> 2018</h1>
+        <div class="header-container">
+            <div class="row justify-content-center title">
+                <h1>Any <span>Question?</span></h1>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-9 col-9">
+                    <form class="mt-4">
+                        <div class="form-group row">
+                            <label for="name" class="col-sm-4 col-form-label">Name :</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="name" spellcheck="false" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-4 col-form-label">Email :</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="email" spellcheck="false" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="optional" class="col-sm-4 col-form-label">University/Company :
+                                <br>(<i>optional</i> )</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="optional" spellcheck="false">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="message" class="col-sm-4 col-form-label">Message :</label>
+                            <div class="col-sm-8">
+                                <textarea name="message" id="message" rows="4" spellcheck="false" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-8 col-12 button-col">
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </header>
-
-    <section class="journey">
-        <div class="section-content">
-            <h1>This is<br>Our <span>Journey</span></h1>
-            <a href="journey.html" class="button">Check This Out !</a>
-        </div>
-    </section>
-
-    <section class="about-class">
-        <div class="section-content">
-            <h1>Know Us <br><span>Better</span></h1>
-            <a href="journey.html" class="button">Check This Out !</a>
-        </div>
-    </section>
-
-    <section class="about-webdev">
-        <div class="section-content">
-            <h1>Meet Our<br><span>Website </span>Developer</h1>
-            <a href="journey.html" class="button">Check This Out !</a>
-        </div>
-    </section>
-
-    <section class="contact-us">
-        <div class="section-content">
-            <h1>Want to<br>Know <span>More?</span></h1>
-            <a href="journey.html" class="button">Check This Out !</a>
-        </div>
-    </section>
 
     <footer class="web-footer">
         <div class="row">
@@ -107,8 +118,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
