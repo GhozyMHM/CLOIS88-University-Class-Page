@@ -272,7 +272,7 @@ footer p {
 @media (max-width: 700px) {
     #web-navbar {
         padding: 0 20px;
-        background-color: rgba(0, 0, 0, 0.849);
+        /* background-color: rgba(0, 0, 0, 0.849); */
     }
 
     .navbar-brand label {
